@@ -1,3 +1,5 @@
+#object orientated programming 
+
 #construction of class
 class ClassName:
     #constructor
@@ -56,3 +58,4 @@ class Child(Parent):
 class Poly(Parent):
     def p_method(self):
         print("this is polymorphism")
+
