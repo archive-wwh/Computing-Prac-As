@@ -11,7 +11,7 @@ connection.commit()
 connection.close()
 
 special things:
-cursor after execute SELECT command
+cursor after execute SELECT command to use python to manipulate data from database
 
 rollback before commit
 '''
@@ -164,3 +164,4 @@ commands that deal with the database's structure (CREATE, etc) will not be rever
 '''
 
 connection.rollback()
+
